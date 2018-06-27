@@ -1,0 +1,4 @@
+AuthUserFile ${INSTALL_DIR}/www/sap/admin/.htpasswd
+AuthType Basic
+AuthName "Admin page"
+Require valid-user

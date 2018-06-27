@@ -1,0 +1,107 @@
+body {
+    margin: auto;
+    font-family: 'Book Antiqua', serif;
+    font-size: 20pt;
+
+}
+
+.page-header image {
+    color: black;
+    position: relative;
+
+}
+
+.navbar {
+    font-size: 16pt;
+    color: white;
+
+}
+
+.left_menu {
+    text-align: center;
+    margin-left: 100px;
+    height: auto;
+    width: 400px;
+    float:left;
+    background: linear-gradient(#5d000f, #aa0010, #5d000e);
+    box-shadow: 10px 10px 5px grey;
+}
+
+.left_menu p {
+    font-size: 22pt;
+    color: #fbffe1;
+    font-weight: bold;
+}
+
+.page-header h1{
+    margin-left: 100px;
+    font-family: 'Parisienne', cursive;
+    font-size: 40pt;
+    font-style: italic;
+}
+
+.left_menu a{
+    color: #f2e2d2;
+}
+
+.left_menu a:hover {
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+
+}
+
+.all_together{
+    overflow: auto;
+}
+.row-rq-height {
+    text-align: center;
+    overflow: hidden;
+}
+
+.navbar-nav p {
+    text-align: right;
+    float:none;
+    font-size: 18pt;
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.jumbotron {
+    background-color: #0a1010;
+    color: #9d9d9d;
+    font-family: 'Lora', serif;
+    box-shadow: 10px 10px 5px #132020;
+}
+
+.jumbotron p{
+    padding-right: 20px;
+    color: white;
+}
+
+#tip {
+    font-size: 14pt;
+}
+
+#Mesto {
+    font-size: 14pt;
+}
+
+.glyphicon {
+    color:white;
+}

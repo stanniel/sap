@@ -1,0 +1,118 @@
+body {
+    margin: auto;
+    font-family: 'Book Antiqua', serif;
+    font-size: 15pt;
+
+}
+
+.page-header image {
+    color: black;
+    position: relative;
+
+}
+
+.navbar {
+    font-size: 16pt;
+    color: white;
+
+}
+
+.left_menu {
+    text-align: center;
+    height: 100vh;
+    width: 20vw;
+    float:left;
+    background: linear-gradient(#5d000f, #aa0010, #5d000e);
+}
+
+.left_menu p {
+    font-size: 22pt;
+    color: #fbffe1;
+    font-weight: bold;
+}
+
+.container span{
+    position: absolute;
+    top:40%;
+    left:40%;
+    font-family: 'Parisienne', cursive;
+    font-size: 30pt;
+    font-style: normal;
+}
+
+.left_menu button{
+  color: #f2e2d2;
+    background: transparent;
+}
+
+.left_menu button:hover {
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+
+}
+
+.row {
+    text-align: center;
+}
+
+.navbar-nav p {
+    text-align: right;
+    float:none;
+    font-size: 18pt;
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.jumbotron {
+    background-color: #0a1010;
+    color: #9d9d9d;
+    font-family: 'Lora', serif;
+    box-shadow: 10px 10px 5px #132020;
+
+}
+
+.jumbotron p{
+    padding-right: 20px;
+    color: white;
+}
+
+#tip {
+    font-size: 14pt;
+}
+
+#Mesto {
+    font-size: 14pt;
+}
+
+.glyphicon {
+    color:white;
+}
+
+.left_menu+.container {
+    height: 100vh;
+    width: 78vw;
+    float: right;
+    margin-left: 0;
+    margin-right:0;
+    padding-left:0;
+    padding-right: 0;
+}
+
+
+
